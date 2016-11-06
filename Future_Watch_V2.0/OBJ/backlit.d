@@ -1,0 +1,11 @@
+..\obj\backlit.o: ..\HARDWARE\TFT_LCD\backlit.c
+..\obj\backlit.o: ..\HARDWARE\TFT_LCD\backlit.h
+..\obj\backlit.o: ..\SYSTEM\delay\delay.h
+..\obj\backlit.o: ..\SYSTEM\sys\sys.h
+..\obj\backlit.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\backlit.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\backlit.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\backlit.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\backlit.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\backlit.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\backlit.o: ..\SYSTEM\sys\system_stm32f4xx.h

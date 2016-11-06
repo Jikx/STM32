@@ -1,0 +1,9 @@
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\Config\LCDConf_FlexColor_Template.c
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\inc\GUI.h
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\inc\GUI_ConfDefaults.h
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\Config\GUIConf.h
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\inc\GUI_Type.h
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\inc\LCD.h
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\inc\Global.h
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\inc\GUI_Version.h
+..\obj\lcdconf_flexcolor_template.o: ..\STemwin\inc\GUIDRV_FlexColor.h

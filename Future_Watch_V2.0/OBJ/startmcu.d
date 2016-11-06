@@ -1,0 +1,9 @@
+..\obj\startmcu.o: ..\STemwin\UI\startmcu.c
+..\obj\startmcu.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\startmcu.o: ..\STemwin\inc\GUI.h
+..\obj\startmcu.o: ..\STemwin\inc\GUI_ConfDefaults.h
+..\obj\startmcu.o: ..\STemwin\Config\GUIConf.h
+..\obj\startmcu.o: ..\STemwin\inc\GUI_Type.h
+..\obj\startmcu.o: ..\STemwin\inc\LCD.h
+..\obj\startmcu.o: ..\STemwin\inc\Global.h
+..\obj\startmcu.o: ..\STemwin\inc\GUI_Version.h
