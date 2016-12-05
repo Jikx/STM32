@@ -1,0 +1,39 @@
+Dependencies for Project 'MSC_Decode', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x532BB241)(--cpu Cortex-M3 -g --apcs=interwork -I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\main.c)(0x5837FAB5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\HARDWARE\OLED -I ..\HARDWARE\OLED-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\HARDWARE\OLED\OLED.h)(0x5837FA4A)
+F (..\SYSTEM\delay\delay.c)(0x5290AD52)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\HARDWARE\OLED -I ..\HARDWARE\OLED-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x52BC4394)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\HARDWARE\OLED -I ..\HARDWARE\OLED-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\OLED\OLED.c)(0x5837FA95)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\HARDWARE\OLED -I ..\HARDWARE\OLED-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
+I (..\HARDWARE\OLED\OLED.h)(0x5837FA4A)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)

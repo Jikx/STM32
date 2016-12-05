@@ -1,0 +1,10 @@
+.\timer.o: ..\HARDWARE\TIMER\timer.c
+.\timer.o: ..\HARDWARE\TIMER\timer.h
+.\timer.o: ..\SYSTEM\delay\delay.h
+.\timer.o: ..\SYSTEM\sys\sys.h
+.\timer.o: ..\SYSTEM\sys\stm32f10x.h
+.\timer.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h
+.\timer.o: I:\SoftwareTool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\timer.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\timer.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\timer.o: ..\SYSTEM\sys\system_stm32f10x.h

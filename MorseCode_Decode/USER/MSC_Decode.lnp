@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_hd.o"
+".\main.o"
+".\delay.o"
+".\sys.o"
+".\usart.o"
+".\oled.o"
+".\timer.o"
+".\morse.o"
+--strict --scatter ".\MSC_Decode.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\MSC_Decode.map" -o .\MSC_Decode.axf

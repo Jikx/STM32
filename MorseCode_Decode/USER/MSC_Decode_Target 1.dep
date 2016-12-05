@@ -1,0 +1,76 @@
+Dependencies for Project 'MSC_Decode', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x532BB241)(--cpu Cortex-M3 -g --apcs=interwork -I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d)
+F (.\main.c)(0x5841100F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\HARDWARE\OLED -I ..\SYSTEM\usart -I ..\HARDWARE\TIMER -I ..\HARDWARE\OLED -I ..\HARDWARE\MORSE -I ..\HARDWARE\MORSE-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\HARDWARE\OLED\OLED.h)(0x583EBAF8)
+I (..\SYSTEM\usart\usart.h)(0x5323CAD6)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\HARDWARE\TIMER\timer.h)(0x58382FCA)
+I (..\HARDWARE\MORSE\morse.h)(0x583FB36E)
+F (..\SYSTEM\delay\delay.c)(0x5290AD52)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\HARDWARE\OLED -I ..\SYSTEM\usart -I ..\HARDWARE\TIMER -I ..\HARDWARE\OLED -I ..\HARDWARE\MORSE -I ..\HARDWARE\MORSE-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x52BC4394)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\HARDWARE\OLED -I ..\SYSTEM\usart -I ..\HARDWARE\TIMER -I ..\HARDWARE\OLED -I ..\HARDWARE\MORSE -I ..\HARDWARE\MORSE-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x532C1350)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\HARDWARE\OLED -I ..\SYSTEM\usart -I ..\HARDWARE\TIMER -I ..\HARDWARE\OLED -I ..\HARDWARE\MORSE -I ..\HARDWARE\MORSE-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x5323CAD6)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+F (..\HARDWARE\OLED\oled.c)(0x58410B66)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\HARDWARE\OLED -I ..\SYSTEM\usart -I ..\HARDWARE\TIMER -I ..\HARDWARE\OLED -I ..\HARDWARE\MORSE -I ..\HARDWARE\MORSE-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o .\oled.o --omf_browse .\oled.crf --depend .\oled.d)
+I (..\HARDWARE\OLED\oled.h)(0x583EBAF8)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\HARDWARE\OLED\ASCII_CODE_8X16_5X8_VERTICAL.h)(0x58410DD8)
+I (..\HARDWARE\OLED\Chinese_And_Graphic.h)(0x56F26972)
+F (..\HARDWARE\TIMER\timer.c)(0x583D11B7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\HARDWARE\OLED -I ..\SYSTEM\usart -I ..\HARDWARE\TIMER -I ..\HARDWARE\OLED -I ..\HARDWARE\MORSE -I ..\HARDWARE\MORSE-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x58382FCA)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\MORSE\morse.c)(0x5841154B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\HARDWARE\OLED -I ..\SYSTEM\usart -I ..\HARDWARE\TIMER -I ..\HARDWARE\OLED -I ..\HARDWARE\MORSE -I ..\HARDWARE\MORSE-I H:\STM32\MyProject\MorseCode_Decode\USER\RTE-I I:\SoftwareTool\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-I I:\SoftwareTool\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD-o .\morse.o --omf_browse .\morse.crf --depend .\morse.d)
+I (..\HARDWARE\MORSE\morse.h)(0x583FB36E)
+I (..\SYSTEM\sys\sys.h)(0x52C02CEB)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x50BF2542)
+I (..\HARDWARE\OLED\oled.h)(0x583EBAF8)

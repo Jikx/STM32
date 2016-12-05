@@ -1,0 +1,9 @@
+.\delay.o: ..\SYSTEM\delay\delay.c
+.\delay.o: ..\SYSTEM\delay\delay.h
+.\delay.o: ..\SYSTEM\sys\sys.h
+.\delay.o: ..\SYSTEM\sys\stm32f10x.h
+.\delay.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h
+.\delay.o: I:\SoftwareTool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\delay.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\delay.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\delay.o: ..\SYSTEM\sys\system_stm32f10x.h

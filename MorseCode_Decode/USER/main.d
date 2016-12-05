@@ -1,0 +1,14 @@
+.\main.o: main.c
+.\main.o: ..\SYSTEM\sys\sys.h
+.\main.o: ..\SYSTEM\sys\stm32f10x.h
+.\main.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h
+.\main.o: I:\SoftwareTool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\main.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\main.o: ..\SYSTEM\sys\system_stm32f10x.h
+.\main.o: ..\SYSTEM\delay\delay.h
+.\main.o: ..\HARDWARE\OLED\OLED.h
+.\main.o: ..\SYSTEM\usart\usart.h
+.\main.o: I:\SoftwareTool\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\main.o: ..\HARDWARE\TIMER\timer.h
+.\main.o: ..\HARDWARE\MORSE\morse.h

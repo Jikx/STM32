@@ -1,0 +1,11 @@
+.\morse.o: ..\HARDWARE\MORSE\morse.c
+.\morse.o: ..\HARDWARE\MORSE\morse.h
+.\morse.o: ..\SYSTEM\sys\sys.h
+.\morse.o: ..\SYSTEM\sys\stm32f10x.h
+.\morse.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cm3.h
+.\morse.o: I:\SoftwareTool\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\morse.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\morse.o: I:\SoftwareTool\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\morse.o: ..\SYSTEM\sys\system_stm32f10x.h
+.\morse.o: ..\SYSTEM\delay\delay.h
+.\morse.o: ..\HARDWARE\OLED\oled.h
